@@ -15,11 +15,11 @@ food when you tap the glass.
 
 The easiest way to install ASCII Aquarium CYD is with the browser flasher:
 
-[Flash ASCII Aquarium CYD](https://power-pill.github.io/ascii-aquarium-cyd/)
+[Flash ASCII Aquarium CYD](https://power-pill.github.io/ASCII-Aquarium/)
 
 You will need:
 
-- A supported CYD board connected by a USB data cable.
+- A supported [CYD board](https://www.aliexpress.com/item/1005004971720824.html) connected by a USB data cable.
 - Chrome or Edge on a desktop computer.
 - The Arduino IDE Serial Monitor closed, if it was open.
 
@@ -28,7 +28,8 @@ port, and let the installer finish.
 
 ## Supported Hardware
 
-This firmware is built for the ESP32-2432S028R "Cheap Yellow Display" board:
+This firmware is built for the [ESP32-2432S028R "Cheap Yellow Display" board](https://www.aliexpress.com/item/1005004971720824.html):
+[https://www.aliexpress.com/item/1005004971720824.html](https://www.aliexpress.com/item/1005004971720824.html)
 
 - ESP32
 - ILI9341 320x240 display
@@ -98,23 +99,6 @@ To build manually:
 For browser flashing releases, use Arduino IDE's **Export Compiled Binary** and
 publish the generated merged firmware binary.
 
-## Release Firmware
-
-For GitHub Pages / ESP Web Tools flashing, use the merged binary exported by the
-Arduino IDE:
-
-```text
-ASCII_Aquarium_CYD.ino.merged.bin
-```
-
-Rename it with the release version, for example:
-
-```text
-ascii-aquarium-cyd-v1.66.bin
-```
-
-Then place it under the web flasher firmware folder and point the ESP Web Tools
-manifest at it with offset `0`.
 
 ## Project Notes
 
