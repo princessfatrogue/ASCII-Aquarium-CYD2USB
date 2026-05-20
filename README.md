@@ -1,5 +1,3 @@
-# ASCII Aquarium
-
 <table>
   <tr>
     <td width="58%" valign="top">
@@ -36,7 +34,7 @@ It is not a video loop. The aquarium is rendered live on the ESP32, with fish
 that wander, school, turn around, change brightness, avoid each other, and chase
 food when you tap the glass.
 
-## Web Flasher
+## ASCII Aquarium Web Flasher
 
 The easiest way to install ASCII Aquarium
  is with the browser flasher:
