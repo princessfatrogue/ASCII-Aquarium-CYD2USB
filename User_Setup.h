@@ -4,14 +4,17 @@
 // Keep the stock User_Setup_Select.h (or restore backup) so TFT_eSPI can load
 // its driver command definitions correctly.
 
-#define USER_SETUP_INFO "ESP32 CYD ILI9341 320x240"
+#define USER_SETUP_INFO "ESP32 CYD ST7789 240x320"
 #define USER_SETUP_ID 2432
 
 // Display driver
-#define ILI9341_DRIVER
+#define ST7789_DRIVER
 
 // Optional colour order (many CYD boards use BGR with ILI9341)
 #define TFT_RGB_ORDER TFT_BGR
+
+//#define TFT_INVERSION_ON
+#define TFT_INVERSION_OFF
 
 // ESP32 TFT pin mapping (common ESP32-2432S028R board)
 #define TFT_MISO 12
@@ -24,11 +27,13 @@
 #define TFT_BACKLIGHT_ON HIGH
 
 // Display geometry and speed
-#define TFT_WIDTH  320
-#define TFT_HEIGHT 240
+#define TFT_WIDTH  240
+#define TFT_HEIGHT 320
 
-#define SPI_FREQUENCY       40000000
-#define SPI_READ_FREQUENCY  20000000
+// ST7789 Offset Corrections
+#define CGRAM_OFFSET
+#define SPI_FREQUENCY 40000000
+#define SPI_READ_FREQUENCY 20000000
 #define SPI_TOUCH_FREQUENCY 2500000
 
 // Fonts
