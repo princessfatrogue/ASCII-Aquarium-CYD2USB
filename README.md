@@ -1,7 +1,9 @@
 
 <p>
-  Full credit to POWER-PILL, I just only own this crap instead of a Normal One
+  Full credit to POWER-PILL, I just only own this crap instead of a Normal One. Credit to u/Expensive_Ad8257 on reddit for the user_setup.h I woulda been lost without you sir
 </p>
+
+
 ## Meet the ASCII Aquarium ><(((°> 
 <table>
   <tr>
